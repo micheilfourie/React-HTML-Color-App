@@ -1,0 +1,10 @@
+.ColorInput{
+    border: 2px solid black;
+    height: 30px;
+    width: 280px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: large;
+    box-shadow: 2px 2px 2px gray;
+    background-color: #f5f6f7;
+}

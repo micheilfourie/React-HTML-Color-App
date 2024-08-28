@@ -1,0 +1,14 @@
+.ColorContainer {
+    border: 2px solid black;
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    box-shadow: 2px 2px 2px gray;
+}
