@@ -5,11 +5,10 @@ const ColorContainer = ({ color }) => {
         <div
             className="ColorContainer"
             style={{ backgroundColor: color }}>
-            <label
-                htmlFor="color">
+            <p>
                 {color === "" ? "Empty Value" : (
                     color.length >= 18 ? color.slice(0, 17) + "..." : color)}
-            </label>
+            </p>
         </div>
     )
 }
